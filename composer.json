@@ -1,0 +1,23 @@
+{
+    "name": "elepunk/authorizer",
+    "description": "OAuth2 server component for Laravel 5",
+    "license": "MIT",
+    "homepage": "http://elepunk.com",
+    "keywords": ["laravel", "orchestra", "oauth2"],
+    "authors": [
+        {
+            "name": "Ahmad Shah Hafizan Hamidin",
+            "email": "ahmadshahhafizan@gmail.com",
+            "homepage": "https://github.com/ahmadshah"
+        }
+    ],
+    "require": {
+        "league/oauth2-server": "~4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elepunk\\Authorizer\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
