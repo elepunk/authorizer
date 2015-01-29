@@ -14,6 +14,9 @@
     "require": {
         "league/oauth2-server": "~4.1"
     },
+    "require-dev": {
+        "illuminate/database": "5.*"
+    },
     "autoload": {
         "psr-4": {
             "Elepunk\\Authorizer\\": "src/"
